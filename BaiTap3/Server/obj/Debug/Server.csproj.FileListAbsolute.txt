@@ -1,0 +1,10 @@
+D:\BaiTap3\BaiTap3\Server\bin\Debug\Server.exe.config
+D:\BaiTap3\BaiTap3\Server\bin\Debug\Server.exe
+D:\BaiTap3\BaiTap3\Server\bin\Debug\Server.pdb
+D:\BaiTap3\BaiTap3\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\BaiTap3\BaiTap3\Server\obj\Debug\Server.FormServer.resources
+D:\BaiTap3\BaiTap3\Server\obj\Debug\Server.Properties.Resources.resources
+D:\BaiTap3\BaiTap3\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\BaiTap3\BaiTap3\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\BaiTap3\BaiTap3\Server\obj\Debug\Server.exe
+D:\BaiTap3\BaiTap3\Server\obj\Debug\Server.pdb
