@@ -57,7 +57,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(255, 192, 192);
-            label2.Location = new Point(134, 154);
+            label2.Location = new Point(115, 154);
             label2.Name = "label2";
             label2.Size = new Size(89, 33);
             label2.TabIndex = 1;
@@ -69,7 +69,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(255, 192, 192);
-            label3.Location = new Point(134, 240);
+            label3.Location = new Point(115, 240);
             label3.Name = "label3";
             label3.Size = new Size(121, 33);
             label3.TabIndex = 2;
@@ -82,7 +82,7 @@
             linkLabel1.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             linkLabel1.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel1.LinkColor = Color.IndianRed;
-            linkLabel1.Location = new Point(622, 331);
+            linkLabel1.Location = new Point(566, 319);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(165, 26);
             linkLabel1.TabIndex = 3;
@@ -91,27 +91,30 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(368, 141);
+            textBox1.Location = new Point(320, 141);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(346, 46);
+            textBox1.Size = new Size(411, 46);
             textBox1.TabIndex = 4;
+            textBox1.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(368, 227);
+            textBox2.Location = new Point(320, 227);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(346, 46);
+            textBox2.Size = new Size(411, 46);
             textBox2.TabIndex = 5;
+            textBox2.TextAlign = HorizontalAlignment.Center;
+            textBox2.UseSystemPasswordChar = true;
             // 
             // button1
             // 
             button1.BackColor = Color.FromArgb(255, 128, 128);
             button1.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(452, 410);
+            button1.Location = new Point(338, 398);
             button1.Name = "button1";
-            button1.Size = new Size(227, 58);
+            button1.Size = new Size(228, 58);
             button1.TabIndex = 6;
             button1.Text = "ĐĂNG NHẬP";
             button1.UseVisualStyleBackColor = false;
@@ -122,7 +125,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.FromArgb(255, 192, 192);
-            label4.Location = new Point(134, 331);
+            label4.Location = new Point(115, 312);
             label4.Name = "label4";
             label4.Size = new Size(230, 33);
             label4.TabIndex = 7;
@@ -135,7 +138,7 @@
             linkLabel2.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             linkLabel2.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel2.LinkColor = Color.IndianRed;
-            linkLabel2.Location = new Point(385, 331);
+            linkLabel2.Location = new Point(360, 319);
             linkLabel2.Name = "linkLabel2";
             linkLabel2.Size = new Size(112, 26);
             linkLabel2.TabIndex = 8;

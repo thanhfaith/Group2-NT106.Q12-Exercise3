@@ -146,51 +146,65 @@
             // 
             // txtht
             // 
+            txtht.ForeColor = Color.Black;
             txtht.Location = new Point(382, 124);
             txtht.Multiline = true;
             txtht.Name = "txtht";
             txtht.Size = new Size(356, 49);
             txtht.TabIndex = 8;
+            txtht.TextAlign = HorizontalAlignment.Center;
             // 
             // txtsdt
             // 
+            txtsdt.ForeColor = Color.Black;
             txtsdt.Location = new Point(382, 191);
             txtsdt.Multiline = true;
             txtsdt.Name = "txtsdt";
             txtsdt.Size = new Size(356, 49);
             txtsdt.TabIndex = 9;
+            txtsdt.TextAlign = HorizontalAlignment.Center;
             // 
             // txte
             // 
+            txte.ForeColor = Color.Black;
             txte.Location = new Point(382, 257);
             txte.Multiline = true;
             txte.Name = "txte";
             txte.Size = new Size(356, 49);
             txte.TabIndex = 10;
+            txte.TextAlign = HorizontalAlignment.Center;
             // 
             // txtns
             // 
+            txtns.ForeColor = Color.Black;
             txtns.Location = new Point(382, 325);
             txtns.Multiline = true;
             txtns.Name = "txtns";
             txtns.Size = new Size(356, 49);
             txtns.TabIndex = 11;
+            txtns.TextAlign = HorizontalAlignment.Center;
             // 
             // txtmk
             // 
+            txtmk.ForeColor = Color.Black;
             txtmk.Location = new Point(382, 394);
             txtmk.Multiline = true;
             txtmk.Name = "txtmk";
             txtmk.Size = new Size(356, 49);
             txtmk.TabIndex = 12;
+            txtmk.TextAlign = HorizontalAlignment.Center;
+            txtmk.UseSystemPasswordChar = true;
             // 
             // txtnlmk
             // 
+            txtnlmk.ForeColor = Color.Black;
             txtnlmk.Location = new Point(382, 462);
             txtnlmk.Multiline = true;
             txtnlmk.Name = "txtnlmk";
             txtnlmk.Size = new Size(356, 49);
             txtnlmk.TabIndex = 13;
+            txtnlmk.TextAlign = HorizontalAlignment.Center;
+            txtnlmk.UseSystemPasswordChar = true;
             // 
             // label8
             // 
