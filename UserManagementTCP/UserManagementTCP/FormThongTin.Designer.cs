@@ -1,6 +1,6 @@
 ﻿namespace UserManagementTCP
 {
-    partial class Form3
+    partial class FormThongTin
     {
         /// <summary>
         /// Required designer variable.
@@ -33,10 +33,10 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
-            lblht = new Label();
-            lblsdt = new Label();
-            lble = new Label();
-            lblns = new Label();
+            txtHoTen = new TextBox();
+            txtSDT = new TextBox();
+            txtEmail = new TextBox();
+            txtNgaySinh = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -99,69 +99,66 @@
             label5.TabIndex = 4;
             label5.Text = "Ngày sinh";
             // 
-            // lblht
+            // txtHoTen
             // 
-            lblht.AutoSize = true;
-            lblht.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblht.ForeColor = Color.Black;
-            lblht.Location = new Point(342, 128);
-            lblht.Name = "lblht";
-            lblht.Size = new Size(92, 33);
-            lblht.TabIndex = 5;
-            lblht.Text = "_ _ _ _";
+            txtHoTen.Enabled = false;
+            txtHoTen.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtHoTen.Location = new Point(325, 131);
+            txtHoTen.Name = "txtHoTen";
+            txtHoTen.ReadOnly = true;
+            txtHoTen.Size = new Size(314, 30);
+            txtHoTen.TabIndex = 5;
             // 
-            // lblsdt
+            // txtSDT
             // 
-            lblsdt.AutoSize = true;
-            lblsdt.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblsdt.ForeColor = Color.Black;
-            lblsdt.Location = new Point(342, 205);
-            lblsdt.Name = "lblsdt";
-            lblsdt.Size = new Size(92, 33);
-            lblsdt.TabIndex = 6;
-            lblsdt.Text = "_ _ _ _";
+            txtSDT.Enabled = false;
+            txtSDT.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtSDT.Location = new Point(325, 208);
+            txtSDT.Name = "txtSDT";
+            txtSDT.ReadOnly = true;
+            txtSDT.Size = new Size(314, 30);
+            txtSDT.TabIndex = 6;
             // 
-            // lble
+            // txtEmail
             // 
-            lble.AutoSize = true;
-            lble.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lble.ForeColor = Color.Black;
-            lble.Location = new Point(342, 285);
-            lble.Name = "lble";
-            lble.Size = new Size(92, 33);
-            lble.TabIndex = 7;
-            lble.Text = "_ _ _ _";
+            txtEmail.Enabled = false;
+            txtEmail.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtEmail.Location = new Point(325, 288);
+            txtEmail.Name = "txtEmail";
+            txtEmail.ReadOnly = true;
+            txtEmail.Size = new Size(314, 30);
+            txtEmail.TabIndex = 7;
             // 
-            // lblns
+            // txtNgaySinh
             // 
-            lblns.AutoSize = true;
-            lblns.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblns.ForeColor = Color.Black;
-            lblns.Location = new Point(342, 365);
-            lblns.Name = "lblns";
-            lblns.Size = new Size(92, 33);
-            lblns.TabIndex = 8;
-            lblns.Text = "_ _ _ _";
+            txtNgaySinh.Enabled = false;
+            txtNgaySinh.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtNgaySinh.Location = new Point(325, 368);
+            txtNgaySinh.Name = "txtNgaySinh";
+            txtNgaySinh.ReadOnly = true;
+            txtNgaySinh.Size = new Size(314, 30);
+            txtNgaySinh.TabIndex = 8;
             // 
-            // Form3
+            // FormThongTin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Screenshot_2025_10_14_184430;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
-            Controls.Add(lblns);
-            Controls.Add(lble);
-            Controls.Add(lblsdt);
-            Controls.Add(lblht);
+            Controls.Add(txtNgaySinh);
+            Controls.Add(txtEmail);
+            Controls.Add(txtSDT);
+            Controls.Add(txtHoTen);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             DoubleBuffered = true;
-            Name = "Form3";
+            Name = "FormThongTin";
             Text = "Form3";
+            Load += FormThongTin_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -173,9 +170,9 @@
         private Label label3;
         private Label label4;
         private Label label5;
-        private Label lblht;
-        private Label lblsdt;
-        private Label lble;
-        private Label lblns;
+        private TextBox txtHoTen;
+        private TextBox txtSDT;
+        private TextBox txtEmail;
+        private TextBox txtNgaySinh;
     }
 }

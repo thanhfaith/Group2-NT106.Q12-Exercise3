@@ -1,6 +1,6 @@
 ﻿namespace UserManagementTCP
 {
-    partial class Form1
+    partial class FormDangKy
     {
         /// <summary>
         ///  Required designer variable.
@@ -35,15 +35,15 @@
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
-            btndk = new Button();
-            txtht = new TextBox();
-            txtsdt = new TextBox();
-            txte = new TextBox();
-            txtns = new TextBox();
-            txtmk = new TextBox();
-            txtnlmk = new TextBox();
+            btnDangKy = new Button();
+            txtHoTen = new TextBox();
+            txtSDT = new TextBox();
+            txtEmail = new TextBox();
+            txtNgaySinh = new TextBox();
+            txtMatKhau = new TextBox();
+            txtNLMK = new TextBox();
             label8 = new Label();
-            btndn = new LinkLabel();
+            llbDangNhap = new LinkLabel();
             SuspendLayout();
             // 
             // label1
@@ -132,79 +132,80 @@
             label7.TabIndex = 6;
             label7.Text = "Nhập lại mật khẩu";
             // 
-            // btndk
+            // btnDangKy
             // 
-            btndk.BackColor = Color.FromArgb(255, 128, 128);
-            btndk.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btndk.ForeColor = SystemColors.ControlText;
-            btndk.Location = new Point(447, 551);
-            btndk.Name = "btndk";
-            btndk.Size = new Size(225, 58);
-            btndk.TabIndex = 7;
-            btndk.Text = "ĐĂNG KÝ";
-            btndk.UseVisualStyleBackColor = false;
+            btnDangKy.BackColor = Color.FromArgb(255, 128, 128);
+            btnDangKy.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnDangKy.ForeColor = SystemColors.ControlText;
+            btnDangKy.Location = new Point(447, 551);
+            btnDangKy.Name = "btnDangKy";
+            btnDangKy.Size = new Size(225, 58);
+            btnDangKy.TabIndex = 7;
+            btnDangKy.Text = "ĐĂNG KÝ";
+            btnDangKy.UseVisualStyleBackColor = false;
+            btnDangKy.Click += btnDangKy_Click;
             // 
-            // txtht
+            // txtHoTen
             // 
-            txtht.ForeColor = Color.Black;
-            txtht.Location = new Point(382, 124);
-            txtht.Multiline = true;
-            txtht.Name = "txtht";
-            txtht.Size = new Size(356, 49);
-            txtht.TabIndex = 8;
-            txtht.TextAlign = HorizontalAlignment.Center;
+            txtHoTen.ForeColor = Color.Black;
+            txtHoTen.Location = new Point(382, 124);
+            txtHoTen.Multiline = true;
+            txtHoTen.Name = "txtHoTen";
+            txtHoTen.Size = new Size(356, 49);
+            txtHoTen.TabIndex = 8;
+            txtHoTen.TextAlign = HorizontalAlignment.Center;
             // 
-            // txtsdt
+            // txtSDT
             // 
-            txtsdt.ForeColor = Color.Black;
-            txtsdt.Location = new Point(382, 191);
-            txtsdt.Multiline = true;
-            txtsdt.Name = "txtsdt";
-            txtsdt.Size = new Size(356, 49);
-            txtsdt.TabIndex = 9;
-            txtsdt.TextAlign = HorizontalAlignment.Center;
+            txtSDT.ForeColor = Color.Black;
+            txtSDT.Location = new Point(382, 191);
+            txtSDT.Multiline = true;
+            txtSDT.Name = "txtSDT";
+            txtSDT.Size = new Size(356, 49);
+            txtSDT.TabIndex = 9;
+            txtSDT.TextAlign = HorizontalAlignment.Center;
             // 
-            // txte
+            // txtEmail
             // 
-            txte.ForeColor = Color.Black;
-            txte.Location = new Point(382, 257);
-            txte.Multiline = true;
-            txte.Name = "txte";
-            txte.Size = new Size(356, 49);
-            txte.TabIndex = 10;
-            txte.TextAlign = HorizontalAlignment.Center;
+            txtEmail.ForeColor = Color.Black;
+            txtEmail.Location = new Point(382, 257);
+            txtEmail.Multiline = true;
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(356, 49);
+            txtEmail.TabIndex = 10;
+            txtEmail.TextAlign = HorizontalAlignment.Center;
             // 
-            // txtns
+            // txtNgaySinh
             // 
-            txtns.ForeColor = Color.Black;
-            txtns.Location = new Point(382, 325);
-            txtns.Multiline = true;
-            txtns.Name = "txtns";
-            txtns.Size = new Size(356, 49);
-            txtns.TabIndex = 11;
-            txtns.TextAlign = HorizontalAlignment.Center;
+            txtNgaySinh.ForeColor = Color.Black;
+            txtNgaySinh.Location = new Point(382, 325);
+            txtNgaySinh.Multiline = true;
+            txtNgaySinh.Name = "txtNgaySinh";
+            txtNgaySinh.Size = new Size(356, 49);
+            txtNgaySinh.TabIndex = 11;
+            txtNgaySinh.TextAlign = HorizontalAlignment.Center;
             // 
-            // txtmk
+            // txtMatKhau
             // 
-            txtmk.ForeColor = Color.Black;
-            txtmk.Location = new Point(382, 394);
-            txtmk.Multiline = true;
-            txtmk.Name = "txtmk";
-            txtmk.Size = new Size(356, 49);
-            txtmk.TabIndex = 12;
-            txtmk.TextAlign = HorizontalAlignment.Center;
-            txtmk.UseSystemPasswordChar = true;
+            txtMatKhau.ForeColor = Color.Black;
+            txtMatKhau.Location = new Point(382, 394);
+            txtMatKhau.Multiline = true;
+            txtMatKhau.Name = "txtMatKhau";
+            txtMatKhau.Size = new Size(356, 49);
+            txtMatKhau.TabIndex = 12;
+            txtMatKhau.TextAlign = HorizontalAlignment.Center;
+            txtMatKhau.UseSystemPasswordChar = true;
             // 
-            // txtnlmk
+            // txtNLMK
             // 
-            txtnlmk.ForeColor = Color.Black;
-            txtnlmk.Location = new Point(382, 462);
-            txtnlmk.Multiline = true;
-            txtnlmk.Name = "txtnlmk";
-            txtnlmk.Size = new Size(356, 49);
-            txtnlmk.TabIndex = 13;
-            txtnlmk.TextAlign = HorizontalAlignment.Center;
-            txtnlmk.UseSystemPasswordChar = true;
+            txtNLMK.ForeColor = Color.Black;
+            txtNLMK.Location = new Point(382, 462);
+            txtNLMK.Multiline = true;
+            txtNLMK.Name = "txtNLMK";
+            txtNLMK.Size = new Size(356, 49);
+            txtNLMK.TabIndex = 13;
+            txtNLMK.TextAlign = HorizontalAlignment.Center;
+            txtNLMK.UseSystemPasswordChar = true;
             // 
             // label8
             // 
@@ -218,39 +219,39 @@
             label8.TabIndex = 14;
             label8.Text = "Đã có tài khoản?";
             // 
-            // btndn
+            // llbDangNhap
             // 
-            btndn.ActiveLinkColor = Color.Red;
-            btndn.AutoSize = true;
-            btndn.BackColor = Color.Transparent;
-            btndn.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btndn.LinkBehavior = LinkBehavior.NeverUnderline;
-            btndn.LinkColor = Color.IndianRed;
-            btndn.Location = new Point(220, 580);
-            btndn.Name = "btndn";
-            btndn.Size = new Size(134, 26);
-            btndn.TabIndex = 15;
-            btndn.TabStop = true;
-            btndn.Text = "[Đăng Nhập]";
-            btndn.VisitedLinkColor = Color.Firebrick;
-            btndn.LinkClicked += linkLabel1_LinkClicked;
+            llbDangNhap.ActiveLinkColor = Color.Red;
+            llbDangNhap.AutoSize = true;
+            llbDangNhap.BackColor = Color.Transparent;
+            llbDangNhap.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            llbDangNhap.LinkBehavior = LinkBehavior.NeverUnderline;
+            llbDangNhap.LinkColor = Color.IndianRed;
+            llbDangNhap.Location = new Point(220, 580);
+            llbDangNhap.Name = "llbDangNhap";
+            llbDangNhap.Size = new Size(134, 26);
+            llbDangNhap.TabIndex = 15;
+            llbDangNhap.TabStop = true;
+            llbDangNhap.Text = "[Đăng Nhập]";
+            llbDangNhap.VisitedLinkColor = Color.Firebrick;
+            llbDangNhap.LinkClicked += linkLabel1_LinkClicked;
             // 
-            // Form1
+            // FormDangKy
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Screenshot_2025_10_14_184430;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(830, 655);
-            Controls.Add(btndn);
+            Controls.Add(llbDangNhap);
             Controls.Add(label8);
-            Controls.Add(txtnlmk);
-            Controls.Add(txtmk);
-            Controls.Add(txtns);
-            Controls.Add(txte);
-            Controls.Add(txtsdt);
-            Controls.Add(txtht);
-            Controls.Add(btndk);
+            Controls.Add(txtNLMK);
+            Controls.Add(txtMatKhau);
+            Controls.Add(txtNgaySinh);
+            Controls.Add(txtEmail);
+            Controls.Add(txtSDT);
+            Controls.Add(txtHoTen);
+            Controls.Add(btnDangKy);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -259,8 +260,9 @@
             Controls.Add(label2);
             Controls.Add(label1);
             DoubleBuffered = true;
-            Name = "Form1";
+            Name = "FormDangKy";
             Text = "Form1";
+            Load += FormDangKy_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -274,14 +276,14 @@
         private Label label5;
         private Label label6;
         private Label label7;
-        private Button btndk;
-        private TextBox txtht;
-        private TextBox txtsdt;
-        private TextBox txte;
-        private TextBox txtns;
-        private TextBox txtmk;
-        private TextBox txtnlmk;
+        private Button btnDangKy;
+        private TextBox txtHoTen;
+        private TextBox txtSDT;
+        private TextBox txtEmail;
+        private TextBox txtNgaySinh;
+        private TextBox txtMatKhau;
+        private TextBox txtNLMK;
         private Label label8;
-        private LinkLabel btndn;
+        private LinkLabel llbDangNhap;
     }
 }

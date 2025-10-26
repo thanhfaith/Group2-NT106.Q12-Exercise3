@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HK3\\Lap_trinh_mang\\Bai_tap\\BT_Tuan4\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\UserManagementTCP.csproj": {}
+    "C:\\Users\\THIS PC\\OneDrive\\Documents\\project vs2022\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\UserManagementTCP.csproj": {}
   },
   "projects": {
-    "D:\\HK3\\Lap_trinh_mang\\Bai_tap\\BT_Tuan4\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\UserManagementTCP.csproj": {
+    "C:\\Users\\THIS PC\\OneDrive\\Documents\\project vs2022\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\UserManagementTCP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HK3\\Lap_trinh_mang\\Bai_tap\\BT_Tuan4\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\UserManagementTCP.csproj",
+        "projectUniqueName": "C:\\Users\\THIS PC\\OneDrive\\Documents\\project vs2022\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\UserManagementTCP.csproj",
         "projectName": "UserManagementTCP",
-        "projectPath": "D:\\HK3\\Lap_trinh_mang\\Bai_tap\\BT_Tuan4\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\UserManagementTCP.csproj",
-        "packagesPath": "C:\\Users\\amin\\.nuget\\packages\\",
-        "outputPath": "D:\\HK3\\Lap_trinh_mang\\Bai_tap\\BT_Tuan4\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\obj\\",
+        "projectPath": "C:\\Users\\THIS PC\\OneDrive\\Documents\\project vs2022\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\UserManagementTCP.csproj",
+        "packagesPath": "C:\\Users\\THIS PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\THIS PC\\OneDrive\\Documents\\project vs2022\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\amin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\THIS PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +49,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

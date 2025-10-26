@@ -1,6 +1,6 @@
 ﻿namespace UserManagementTCP
 {
-    partial class Form2
+    partial class FormDangNhap
     {
         /// <summary>
         /// Required designer variable.
@@ -31,12 +31,12 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            linkLabel1 = new LinkLabel();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
+            llbQMK = new LinkLabel();
+            txtEmail = new TextBox();
+            txtMatKhau = new TextBox();
+            btnDangNhap = new Button();
             label4 = new Label();
-            linkLabel2 = new LinkLabel();
+            llbDangKy = new LinkLabel();
             SuspendLayout();
             // 
             // label1
@@ -75,49 +75,51 @@
             label3.TabIndex = 2;
             label3.Text = "Mật khẩu";
             // 
-            // linkLabel1
+            // llbQMK
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.BackColor = Color.Transparent;
-            linkLabel1.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkLabel1.LinkBehavior = LinkBehavior.NeverUnderline;
-            linkLabel1.LinkColor = Color.IndianRed;
-            linkLabel1.Location = new Point(566, 319);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(165, 26);
-            linkLabel1.TabIndex = 3;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Quên mật khẩu?";
+            llbQMK.AutoSize = true;
+            llbQMK.BackColor = Color.Transparent;
+            llbQMK.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            llbQMK.LinkBehavior = LinkBehavior.NeverUnderline;
+            llbQMK.LinkColor = Color.IndianRed;
+            llbQMK.Location = new Point(566, 319);
+            llbQMK.Name = "llbQMK";
+            llbQMK.Size = new Size(165, 26);
+            llbQMK.TabIndex = 3;
+            llbQMK.TabStop = true;
+            llbQMK.Text = "Quên mật khẩu?";
+            llbQMK.LinkClicked += llbQMK_LinkClicked;
             // 
-            // textBox1
+            // txtEmail
             // 
-            textBox1.Location = new Point(320, 141);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(411, 46);
-            textBox1.TabIndex = 4;
-            textBox1.TextAlign = HorizontalAlignment.Center;
+            txtEmail.Location = new Point(320, 141);
+            txtEmail.Multiline = true;
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(411, 46);
+            txtEmail.TabIndex = 4;
+            txtEmail.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox2
+            // txtMatKhau
             // 
-            textBox2.Location = new Point(320, 227);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(411, 46);
-            textBox2.TabIndex = 5;
-            textBox2.TextAlign = HorizontalAlignment.Center;
-            textBox2.UseSystemPasswordChar = true;
+            txtMatKhau.Location = new Point(320, 227);
+            txtMatKhau.Multiline = true;
+            txtMatKhau.Name = "txtMatKhau";
+            txtMatKhau.Size = new Size(411, 46);
+            txtMatKhau.TabIndex = 5;
+            txtMatKhau.TextAlign = HorizontalAlignment.Center;
+            txtMatKhau.UseSystemPasswordChar = true;
             // 
-            // button1
+            // btnDangNhap
             // 
-            button1.BackColor = Color.FromArgb(255, 128, 128);
-            button1.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(338, 398);
-            button1.Name = "button1";
-            button1.Size = new Size(228, 58);
-            button1.TabIndex = 6;
-            button1.Text = "ĐĂNG NHẬP";
-            button1.UseVisualStyleBackColor = false;
+            btnDangNhap.BackColor = Color.FromArgb(255, 128, 128);
+            btnDangNhap.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnDangNhap.Location = new Point(338, 398);
+            btnDangNhap.Name = "btnDangNhap";
+            btnDangNhap.Size = new Size(228, 58);
+            btnDangNhap.TabIndex = 6;
+            btnDangNhap.Text = "ĐĂNG NHẬP";
+            btnDangNhap.UseVisualStyleBackColor = false;
+            btnDangNhap.Click += btnDangNhap_Click;
             // 
             // label4
             // 
@@ -131,39 +133,41 @@
             label4.TabIndex = 7;
             label4.Text = "Chưa có tài khoản?";
             // 
-            // linkLabel2
+            // llbDangKy
             // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.BackColor = Color.Transparent;
-            linkLabel2.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkLabel2.LinkBehavior = LinkBehavior.NeverUnderline;
-            linkLabel2.LinkColor = Color.IndianRed;
-            linkLabel2.Location = new Point(360, 319);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(112, 26);
-            linkLabel2.TabIndex = 8;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "[Đăng Ký]";
+            llbDangKy.AutoSize = true;
+            llbDangKy.BackColor = Color.Transparent;
+            llbDangKy.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            llbDangKy.LinkBehavior = LinkBehavior.NeverUnderline;
+            llbDangKy.LinkColor = Color.IndianRed;
+            llbDangKy.Location = new Point(360, 319);
+            llbDangKy.Name = "llbDangKy";
+            llbDangKy.Size = new Size(112, 26);
+            llbDangKy.TabIndex = 8;
+            llbDangKy.TabStop = true;
+            llbDangKy.Text = "[Đăng Ký]";
+            llbDangKy.LinkClicked += llbDangKy_LinkClicked;
             // 
-            // Form2
+            // FormDangNhap
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Screenshot_2025_10_14_184430;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(895, 552);
-            Controls.Add(linkLabel2);
+            Controls.Add(llbDangKy);
             Controls.Add(label4);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(linkLabel1);
+            Controls.Add(btnDangNhap);
+            Controls.Add(txtMatKhau);
+            Controls.Add(txtEmail);
+            Controls.Add(llbQMK);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             DoubleBuffered = true;
-            Name = "Form2";
+            Name = "FormDangNhap";
             Text = "Form2";
+            Load += FormDangNhap_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -173,11 +177,11 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private LinkLabel linkLabel1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
+        private LinkLabel llbQMK;
+        private TextBox txtEmail;
+        private TextBox txtMatKhau;
+        private Button btnDangNhap;
         private Label label4;
-        private LinkLabel linkLabel2;
+        private LinkLabel llbDangKy;
     }
 }

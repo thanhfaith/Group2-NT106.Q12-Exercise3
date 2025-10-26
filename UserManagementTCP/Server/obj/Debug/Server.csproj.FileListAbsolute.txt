@@ -1,0 +1,10 @@
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Server.exe.config
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Server.exe
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Server.pdb
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.Form1.resources
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.exe
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.pdb

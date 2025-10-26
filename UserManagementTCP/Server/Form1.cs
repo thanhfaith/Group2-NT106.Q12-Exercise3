@@ -59,10 +59,46 @@ namespace Server
                 byte[] buffer = new byte[2048];
                 int byteCount = stream.Read(buffer, 0, buffer.Length);
                 string request = Encoding.UTF8.GetString(buffer, 0, byteCount);
+                string response = "";
 
                 Log($"Từ {clientInfo}: {request}");
-                string response = $"Server đã nhận: {request}";
+
+                if (request.StartsWith("REGISTER|"))
+                {
+                    string[] parts = request.Split('|');
+                    if (parts.Length == 6)
+                    {
+                        string name = parts[1];
+                        string phone = parts[2];
+                        string email = parts[3];
+                        string birthday = parts[4];
+                        string password = parts[5];
+
+                        bool success = DatabaseHelper.RegisterUser(name, password, email, phone, birthday);
+                        response = success ? "Đăng ký thành công!" : "Tài khoản đã tồn tại!";
+                    }
+                    else response = "Dữ liệu không hợp lệ.";
+                }
+                else if (request.StartsWith("LOGIN|"))
+                {
+                    string[] parts = request.Split('|');
+                    if (parts.Length == 3)
+                    {
+                        string username = parts[1];
+                        string password = parts[2];
+
+                        bool ok = DatabaseHelper.CheckLogin(username, password);
+                        response = ok ? "Đăng nhập thành công!" : "Sai tài khoản hoặc mật khẩu!";
+                    }
+                    else response = "Dữ liệu không hợp lệ.";
+                }
+                else
+                {
+                    response = "Lệnh không hợp lệ.";
+                }
+
                 byte[] responseData = Encoding.UTF8.GetBytes(response);
+                Log($"→ Gửi phản hồi tới {clientInfo}: {response}");
                 stream.Write(responseData, 0, responseData.Length);
             }
             catch (Exception ex)
@@ -75,6 +111,7 @@ namespace Server
                 Invoke(new Action(() => lstClients.Items.Remove(clientInfo)));
                 Log($"{clientInfo} đã ngắt kết nối.");
             }
+
         }
 
         private void Log(string message)

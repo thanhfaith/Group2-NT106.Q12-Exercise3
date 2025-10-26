@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "muda0JSLS80=",
+  "dgSpecHash": "JRv/euIc8No=",
   "success": true,
-  "projectFilePath": "D:\\HK3\\Lap_trinh_mang\\Bai_tap\\BT_Tuan4\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\UserManagementTCP.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\THIS PC\\OneDrive\\Documents\\project vs2022\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\UserManagementTCP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\THIS PC\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\THIS PC\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\THIS PC\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\THIS PC\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\THIS PC\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512"
+  ],
   "logs": []
 }
