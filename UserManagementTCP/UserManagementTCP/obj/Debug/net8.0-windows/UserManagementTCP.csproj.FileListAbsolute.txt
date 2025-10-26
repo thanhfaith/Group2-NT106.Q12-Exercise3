@@ -19,16 +19,16 @@ D:\HK3\Lap_trinh_mang\Bai_tap\BT_Tuan4\Group2-NT106.Q12-Exercise3\UserManagement
 D:\HK3\Lap_trinh_mang\Bai_tap\BT_Tuan4\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\obj\Debug\net8.0-windows\UserManagementTCP.genruntimeconfig.cache
 D:\HK3\Lap_trinh_mang\Bai_tap\BT_Tuan4\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\obj\Debug\net8.0-windows\ref\UserManagementTCP.dll
 C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\UserManagementTCP.exe
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\UserManagementTCP.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\UserManagementTCP.deps.json
 C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\UserManagementTCP.runtimeconfig.json
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\UserManagementTCP.dll
 C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\UserManagementTCP.pdb
 C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
 C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
 C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\obj\Debug\net8.0-windows\UserManagementTCP.csproj.AssemblyReference.cache
 C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\obj\Debug\net8.0-windows\UserManagementTCP.FormDangKy.resources
 C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\UserManagementTCP\obj\Debug\net8.0-windows\UserManagementTCP.FormDangNhap.resources

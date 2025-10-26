@@ -191,10 +191,10 @@
             txtMatKhau.Location = new Point(382, 394);
             txtMatKhau.Multiline = true;
             txtMatKhau.Name = "txtMatKhau";
+            txtMatKhau.PasswordChar = '*';
             txtMatKhau.Size = new Size(356, 49);
             txtMatKhau.TabIndex = 12;
             txtMatKhau.TextAlign = HorizontalAlignment.Center;
-            txtMatKhau.UseSystemPasswordChar = true;
             // 
             // txtNLMK
             // 
@@ -202,10 +202,10 @@
             txtNLMK.Location = new Point(382, 462);
             txtNLMK.Multiline = true;
             txtNLMK.Name = "txtNLMK";
+            txtNLMK.PasswordChar = '*';
             txtNLMK.Size = new Size(356, 49);
             txtNLMK.TabIndex = 13;
             txtNLMK.TextAlign = HorizontalAlignment.Center;
-            txtNLMK.UseSystemPasswordChar = true;
             // 
             // label8
             // 

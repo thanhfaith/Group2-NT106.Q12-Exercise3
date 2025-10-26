@@ -104,10 +104,10 @@
             txtMatKhau.Location = new Point(320, 227);
             txtMatKhau.Multiline = true;
             txtMatKhau.Name = "txtMatKhau";
+            txtMatKhau.PasswordChar = '*';
             txtMatKhau.Size = new Size(411, 46);
             txtMatKhau.TabIndex = 5;
             txtMatKhau.TextAlign = HorizontalAlignment.Center;
-            txtMatKhau.UseSystemPasswordChar = true;
             // 
             // btnDangNhap
             // 
