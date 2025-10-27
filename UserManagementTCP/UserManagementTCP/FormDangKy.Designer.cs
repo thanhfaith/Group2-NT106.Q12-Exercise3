@@ -52,7 +52,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Times New Roman", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(255, 128, 128);
-            label1.Location = new Point(184, 35);
+            label1.Location = new Point(261, 36);
             label1.Name = "label1";
             label1.Size = new Size(450, 45);
             label1.TabIndex = 0;
@@ -65,7 +65,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Times New Roman", 16.2F);
             label2.ForeColor = Color.FromArgb(255, 192, 192);
-            label2.Location = new Point(116, 140);
+            label2.Location = new Point(50, 140);
             label2.Name = "label2";
             label2.Size = new Size(89, 33);
             label2.TabIndex = 1;
@@ -78,7 +78,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Times New Roman", 16.2F);
             label3.ForeColor = Color.FromArgb(255, 192, 192);
-            label3.Location = new Point(116, 207);
+            label3.Location = new Point(50, 207);
             label3.Name = "label3";
             label3.Size = new Size(163, 33);
             label3.TabIndex = 2;
@@ -90,7 +90,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Times New Roman", 16.2F);
             label4.ForeColor = Color.FromArgb(255, 192, 192);
-            label4.Location = new Point(116, 273);
+            label4.Location = new Point(50, 273);
             label4.Name = "label4";
             label4.Size = new Size(89, 33);
             label4.TabIndex = 3;
@@ -102,11 +102,11 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Times New Roman", 16.2F);
             label5.ForeColor = Color.FromArgb(255, 192, 192);
-            label5.Location = new Point(116, 341);
+            label5.Location = new Point(50, 341);
             label5.Name = "label5";
-            label5.Size = new Size(127, 33);
+            label5.Size = new Size(288, 33);
             label5.TabIndex = 4;
-            label5.Text = "Ngày sinh";
+            label5.Text = "Ngày sinh (yyyy/mm/dd)";
             // 
             // label6
             // 
@@ -114,7 +114,7 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Times New Roman", 16.2F);
             label6.ForeColor = Color.FromArgb(255, 192, 192);
-            label6.Location = new Point(116, 410);
+            label6.Location = new Point(50, 410);
             label6.Name = "label6";
             label6.Size = new Size(121, 33);
             label6.TabIndex = 5;
@@ -126,7 +126,7 @@
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Times New Roman", 16.2F);
             label7.ForeColor = Color.FromArgb(255, 192, 192);
-            label7.Location = new Point(116, 478);
+            label7.Location = new Point(50, 478);
             label7.Name = "label7";
             label7.Size = new Size(218, 33);
             label7.TabIndex = 6;
@@ -137,7 +137,7 @@
             btnDangKy.BackColor = Color.FromArgb(255, 128, 128);
             btnDangKy.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnDangKy.ForeColor = SystemColors.ControlText;
-            btnDangKy.Location = new Point(447, 551);
+            btnDangKy.Location = new Point(532, 548);
             btnDangKy.Name = "btnDangKy";
             btnDangKy.Size = new Size(225, 58);
             btnDangKy.TabIndex = 7;
@@ -148,7 +148,7 @@
             // txtHoTen
             // 
             txtHoTen.ForeColor = Color.Black;
-            txtHoTen.Location = new Point(382, 124);
+            txtHoTen.Location = new Point(460, 124);
             txtHoTen.Multiline = true;
             txtHoTen.Name = "txtHoTen";
             txtHoTen.Size = new Size(356, 49);
@@ -158,7 +158,7 @@
             // txtSDT
             // 
             txtSDT.ForeColor = Color.Black;
-            txtSDT.Location = new Point(382, 191);
+            txtSDT.Location = new Point(460, 191);
             txtSDT.Multiline = true;
             txtSDT.Name = "txtSDT";
             txtSDT.Size = new Size(356, 49);
@@ -168,7 +168,7 @@
             // txtEmail
             // 
             txtEmail.ForeColor = Color.Black;
-            txtEmail.Location = new Point(382, 257);
+            txtEmail.Location = new Point(460, 257);
             txtEmail.Multiline = true;
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(356, 49);
@@ -178,7 +178,7 @@
             // txtNgaySinh
             // 
             txtNgaySinh.ForeColor = Color.Black;
-            txtNgaySinh.Location = new Point(382, 325);
+            txtNgaySinh.Location = new Point(460, 325);
             txtNgaySinh.Multiline = true;
             txtNgaySinh.Name = "txtNgaySinh";
             txtNgaySinh.Size = new Size(356, 49);
@@ -188,7 +188,7 @@
             // txtMatKhau
             // 
             txtMatKhau.ForeColor = Color.Black;
-            txtMatKhau.Location = new Point(382, 394);
+            txtMatKhau.Location = new Point(460, 394);
             txtMatKhau.Multiline = true;
             txtMatKhau.Name = "txtMatKhau";
             txtMatKhau.PasswordChar = '*';
@@ -199,7 +199,7 @@
             // txtNLMK
             // 
             txtNLMK.ForeColor = Color.Black;
-            txtNLMK.Location = new Point(382, 462);
+            txtNLMK.Location = new Point(460, 462);
             txtNLMK.Multiline = true;
             txtNLMK.Name = "txtNLMK";
             txtNLMK.PasswordChar = '*';
@@ -213,7 +213,7 @@
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Times New Roman", 16.2F);
             label8.ForeColor = Color.FromArgb(255, 192, 192);
-            label8.Location = new Point(12, 576);
+            label8.Location = new Point(50, 562);
             label8.Name = "label8";
             label8.Size = new Size(202, 33);
             label8.TabIndex = 14;
@@ -227,7 +227,7 @@
             llbDangNhap.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             llbDangNhap.LinkBehavior = LinkBehavior.NeverUnderline;
             llbDangNhap.LinkColor = Color.IndianRed;
-            llbDangNhap.Location = new Point(220, 580);
+            llbDangNhap.Location = new Point(283, 566);
             llbDangNhap.Name = "llbDangNhap";
             llbDangNhap.Size = new Size(134, 26);
             llbDangNhap.TabIndex = 15;
@@ -242,7 +242,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Screenshot_2025_10_14_184430;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(830, 655);
+            ClientSize = new Size(942, 655);
             Controls.Add(llbDangNhap);
             Controls.Add(label8);
             Controls.Add(txtNLMK);

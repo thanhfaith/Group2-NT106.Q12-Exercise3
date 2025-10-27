@@ -11,7 +11,7 @@ namespace Server
 {
     internal static class Program
     {
-        
+        public static volatile bool isRunning = true;
         private const string JWT_SECRET_KEY = "DayLaKhoaBiMatSieuCapViProCuaToi_32_KyTu_TroLen";
 
         private static JwtHelper jwtHelper;

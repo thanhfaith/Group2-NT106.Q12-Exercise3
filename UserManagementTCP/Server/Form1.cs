@@ -87,7 +87,7 @@ namespace Server
                         string username = parts[1];
                         string password = parts[2];
 
-                        bool ok = DatabaseHelper.CheckLogin(username, password);
+                        bool ok = DatabaseHelper.Authenticate(username, password);
                         response = ok ? "Đăng nhập thành công!" : "Sai tài khoản hoặc mật khẩu!";
                     }
                     else response = "Dữ liệu không hợp lệ.";
@@ -125,12 +125,20 @@ namespace Server
                 lstClients.Items.Remove(clientInfo);
             }
         }
-        private void Log(string message)
+        public void Log(string message)
         {
-            Invoke(new Action(() =>
+            if (this.InvokeRequired)
             {
-                tb_log.AppendText(message + Environment.NewLine);
-            }));
+                this.Invoke(new Action(() => Log(message)));
+            }
+            else
+            {
+
+            }
+        }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Program.isRunning = false;
         }
     }
 }
