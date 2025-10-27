@@ -1,10 +1,10 @@
-﻿using System;
+﻿using System.Text;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Sockets;
 using System.Security.Claims;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Server
@@ -95,9 +95,10 @@ namespace Server
                     string regFull = parts[1];
                     string regPassHashed = parts[2];
                     string regEmail = parts[3];
-                    string regBdayStr = parts[4];
+                    string regPhone = parts[4];
+                    string regBdayStr = parts[5];
 
-                    bool regSuccess = DatabaseHelper.RegisterUser(regFull, regPassHashed, regEmail, regBdayStr);
+                    bool regSuccess = DatabaseHelper.RegisterUser(regFull, regPassHashed, regEmail,regPhone, regBdayStr);
 
                     if (regSuccess)
                     {
@@ -128,7 +129,7 @@ namespace Server
                     case "GET_INFO":
            
                         var details = DatabaseHelper.GetUserDetails(emailFromToken);
-                        if (details.Count == 0) return "ERROR|Không tìm thấy thông tin user";
+                        if (details.Count() == 0) return "ERROR|Không tìm thấy thông tin user";
 
                         return $"USER_INFO|{details["Email"]}|{details["FullName"]}|{details["Birthday"]}";
 

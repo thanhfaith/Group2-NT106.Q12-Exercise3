@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+QQvVQv+5Tw=",
+  "dgSpecHash": "6p8iHzSkgOc=",
   "success": true,
   "projectFilePath": "D:\\Lập trình mạng căn bản\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\UserManagementTCP.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

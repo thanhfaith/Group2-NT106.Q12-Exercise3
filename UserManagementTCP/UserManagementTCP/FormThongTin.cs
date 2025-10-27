@@ -60,6 +60,9 @@ namespace UserManagementTCP
 
         private void button1_Click(object sender, EventArgs e)
         {
+            FormDangKy Form1 = new FormDangKy();
+            Form1.Show();
+            this.Close();
 
         }
     }

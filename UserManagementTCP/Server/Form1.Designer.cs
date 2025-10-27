@@ -36,9 +36,10 @@
             // 
             // btn_Start
             // 
-            this.btn_Start.Location = new System.Drawing.Point(43, 40);
+            this.btn_Start.Location = new System.Drawing.Point(38, 32);
+            this.btn_Start.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_Start.Name = "btn_Start";
-            this.btn_Start.Size = new System.Drawing.Size(174, 86);
+            this.btn_Start.Size = new System.Drawing.Size(155, 69);
             this.btn_Start.TabIndex = 0;
             this.btn_Start.Text = "Start";
             this.btn_Start.UseVisualStyleBackColor = true;
@@ -47,39 +48,43 @@
             // lb_status
             // 
             this.lb_status.AutoSize = true;
-            this.lb_status.Location = new System.Drawing.Point(340, 180);
+            this.lb_status.Location = new System.Drawing.Point(302, 144);
             this.lb_status.Name = "lb_status";
-            this.lb_status.Size = new System.Drawing.Size(74, 20);
+            this.lb_status.Size = new System.Drawing.Size(60, 16);
             this.lb_status.TabIndex = 1;
             this.lb_status.Text = "lb_status";
             // 
             // lstClients
             // 
             this.lstClients.FormattingEnabled = true;
-            this.lstClients.ItemHeight = 20;
-            this.lstClients.Location = new System.Drawing.Point(500, 51);
+            this.lstClients.ItemHeight = 16;
+            this.lstClients.Location = new System.Drawing.Point(444, 41);
+            this.lstClients.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lstClients.Name = "lstClients";
-            this.lstClients.Size = new System.Drawing.Size(213, 104);
+            this.lstClients.Size = new System.Drawing.Size(190, 84);
             this.lstClients.TabIndex = 2;
             // 
             // tb_log
             // 
-            this.tb_log.Location = new System.Drawing.Point(279, 265);
+            this.tb_log.Location = new System.Drawing.Point(248, 212);
+            this.tb_log.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_log.Name = "tb_log";
-            this.tb_log.Size = new System.Drawing.Size(421, 26);
+            this.tb_log.Size = new System.Drawing.Size(375, 22);
             this.tb_log.TabIndex = 3;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(711, 360);
             this.Controls.Add(this.tb_log);
             this.Controls.Add(this.lstClients);
             this.Controls.Add(this.lb_status);
             this.Controls.Add(this.btn_Start);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
