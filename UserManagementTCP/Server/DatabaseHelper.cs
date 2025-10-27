@@ -10,11 +10,11 @@ namespace Server
 {
     internal class DatabaseHelper
     {
-        private static string connStr = "Data Source=LAPTOP-EDR1OHEC;Initial Catalog=UserDB;Integrated Security=True";
+        private static string connStr = "Data Source=LAPTOP-EDR1OHEC;Initial Catalog=UserDB;Integrated Security=True;TrustServerCertificate=True";
 
         public static string GetAllUsers()
         {
-            string result = "";
+            StringBuilder result = new StringBuilder();
             using (SqlConnection conn = new SqlConnection(connStr))
             {
                 conn.Open();
@@ -23,10 +23,10 @@ namespace Server
 
                 while (reader.Read())
                 {
-                    result += $"{reader["Username"]} - {reader["Email"]}\n";
+                    result.AppendLine($"{reader["Username"]} - {reader["Email"]}");
                 }
             }
-            return result;
+            return result.ToString();
         }
         public static bool IsUsernameExists(string email)
         {
@@ -65,7 +65,7 @@ namespace Server
         }
 
 
-        public static bool CheckLogin(string email, string password)
+        public static bool Authenticate(string email, string password)
         {
             using (SqlConnection conn = new SqlConnection(connStr))
             {
@@ -79,6 +79,23 @@ namespace Server
             }
         }
 
-
+        public static int GetUserIdByEmail(string email)
+        {
+            using (SqlConnection conn = new SqlConnection(connStr))
+            {
+                conn.Open();
+                string query = "SELECT UserId FROM Users WHERE Email = @e";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@e", email);
+                    object result = cmd.ExecuteScalar();
+                    if (result != null)
+                    {
+                        return (int)result;
+                    }
+                    return -1; 
+                }
+            }
+        }
     }
 }

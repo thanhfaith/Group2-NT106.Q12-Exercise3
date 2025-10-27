@@ -114,6 +114,17 @@ namespace Server
 
         }
 
+        public void RemoveClientFromList(string clientInfo)
+        {
+            if (lstClients.InvokeRequired)
+            {
+                lstClients.Invoke(new Action(() => RemoveClientFromList(clientInfo)));
+            }
+            else
+            {
+                lstClients.Items.Remove(clientInfo);
+            }
+        }
         private void Log(string message)
         {
             Invoke(new Action(() =>

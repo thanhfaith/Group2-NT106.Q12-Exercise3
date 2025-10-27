@@ -37,6 +37,7 @@
             txtSDT = new TextBox();
             txtEmail = new TextBox();
             txtNgaySinh = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -139,13 +140,27 @@
             txtNgaySinh.Size = new Size(314, 30);
             txtNgaySinh.TabIndex = 8;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.Pink;
+            button1.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Location = new Point(401, 422);
+            button1.Name = "button1";
+            button1.Size = new Size(155, 46);
+            button1.TabIndex = 10;
+            button1.Text = "Đăng xuất ";
+            button1.TextAlign = ContentAlignment.MiddleRight;
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // FormThongTin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Screenshot_2025_10_14_184430;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 491);
+            Controls.Add(button1);
             Controls.Add(txtNgaySinh);
             Controls.Add(txtEmail);
             Controls.Add(txtSDT);
@@ -174,5 +189,6 @@
         private TextBox txtSDT;
         private TextBox txtEmail;
         private TextBox txtNgaySinh;
+        private Button button1;
     }
 }

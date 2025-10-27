@@ -1,9 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\THIS PC\\OneDrive\\Documents\\project vs2022\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\",
+  "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8C83C70-490B-445C-9909-D34FC02AE8DC}|UserManagementTCP\\UserManagementTCP.csproj|c:\\users\\this pc\\onedrive\\documents\\project vs2022\\group2-nt106.q12-exercise3\\usermanagementtcp\\usermanagementtcp\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|d:\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\lt\\bt\\bt3\\group2-nt106.q12-exercise3\\usermanagementtcp\\server\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|solutionrelative:server\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|d:\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\lt\\bt\\bt3\\group2-nt106.q12-exercise3\\usermanagementtcp\\server\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|solutionrelative:server\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|d:\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\lt\\bt\\bt3\\group2-nt106.q12-exercise3\\usermanagementtcp\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|d:\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\lt\\bt\\bt3\\group2-nt106.q12-exercise3\\usermanagementtcp\\server\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|solutionrelative:server\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|d:\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\lt\\bt\\bt3\\group2-nt106.q12-exercise3\\usermanagementtcp\\server\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|solutionrelative:server\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C83C70-490B-445C-9909-D34FC02AE8DC}|UserManagementTCP\\UserManagementTCP.csproj|d:\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\lt\\bt\\bt3\\group2-nt106.q12-exercise3\\usermanagementtcp\\usermanagementtcp\\formthongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C83C70-490B-445C-9909-D34FC02AE8DC}|UserManagementTCP\\UserManagementTCP.csproj|solutionrelative:usermanagementtcp\\formthongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C83C70-490B-445C-9909-D34FC02AE8DC}|UserManagementTCP\\UserManagementTCP.csproj|d:\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\lt\\bt\\bt3\\group2-nt106.q12-exercise3\\usermanagementtcp\\usermanagementtcp\\formthongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8C83C70-490B-445C-9909-D34FC02AE8DC}|UserManagementTCP\\UserManagementTCP.csproj|solutionrelative:usermanagementtcp\\formthongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C83C70-490B-445C-9909-D34FC02AE8DC}|UserManagementTCP\\UserManagementTCP.csproj|d:\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\lt\\bt\\bt3\\group2-nt106.q12-exercise3\\usermanagementtcp\\usermanagementtcp\\formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8C83C70-490B-445C-9909-D34FC02AE8DC}|UserManagementTCP\\UserManagementTCP.csproj|solutionrelative:usermanagementtcp\\formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C83C70-490B-445C-9909-D34FC02AE8DC}|UserManagementTCP\\UserManagementTCP.csproj|d:\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\lt\\bt\\bt3\\group2-nt106.q12-exercise3\\usermanagementtcp\\usermanagementtcp\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8C83C70-490B-445C-9909-D34FC02AE8DC}|UserManagementTCP\\UserManagementTCP.csproj|solutionrelative:usermanagementtcp\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -14,15 +46,117 @@
       "DocumentGroups": [
         {
           "DockedHeight": 373,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\Form1.cs",
+              "RelativeDocumentMoniker": "Server\\Form1.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\Form1.cs",
+              "RelativeToolTip": "Server\\Form1.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:30:14.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Server\\DatabaseHelper.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\DatabaseHelper.cs",
+              "RelativeToolTip": "Server\\DatabaseHelper.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwFQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:42:50.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Server\\JwtHelper.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\JwtHelper.cs",
+              "RelativeToolTip": "Server\\JwtHelper.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:33:16.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:39:20.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientHandler.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\ClientHandler.cs",
+              "RelativeDocumentMoniker": "Server\\ClientHandler.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\ClientHandler.cs",
+              "RelativeToolTip": "Server\\ClientHandler.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAgwA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:42:29.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormThongTin.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\FormThongTin.cs",
+              "RelativeDocumentMoniker": "UserManagementTCP\\FormThongTin.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\FormThongTin.cs",
+              "RelativeToolTip": "UserManagementTCP\\FormThongTin.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAvwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:03:30.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormDangKy.cs [Design]",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\FormDangKy.cs",
+              "RelativeDocumentMoniker": "UserManagementTCP\\FormDangKy.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\FormDangKy.cs [Design]",
+              "RelativeToolTip": "UserManagementTCP\\FormDangKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:21:01.001Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormThongTin.cs [Design]",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\FormThongTin.cs",
+              "RelativeDocumentMoniker": "UserManagementTCP\\FormThongTin.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\FormThongTin.cs [Design]",
+              "RelativeToolTip": "UserManagementTCP\\FormThongTin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T07:59:55.575Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FormDangNhap.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THIS PC\\OneDrive\\Documents\\project vs2022\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\FormDangNhap.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\FormDangNhap.cs",
               "RelativeDocumentMoniker": "UserManagementTCP\\FormDangNhap.cs",
-              "ToolTip": "C:\\Users\\THIS PC\\OneDrive\\Documents\\project vs2022\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\FormDangNhap.cs [Design]",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\LT\\BT\\BT3\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\UserManagementTCP\\FormDangNhap.cs [Design]",
               "RelativeToolTip": "UserManagementTCP\\FormDangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T19:34:32.482Z",
