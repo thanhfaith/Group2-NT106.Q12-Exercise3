@@ -56,7 +56,7 @@ namespace UserManagementTCP
         {
             try
             {
-                using (TcpClient client = new TcpClient("192.168.1.6", 8888))
+                using (TcpClient client = new TcpClient("192.168.1.231", 8888))
                 {
                     NetworkStream stream = client.GetStream();
                     byte[] buffer = Encoding.UTF8.GetBytes(data);

@@ -1,13 +1,3 @@
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Server.exe
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Server.exe.config
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Server.pdb
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.AssemblyReference.cache
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.Form1.resources
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.Properties.Resources.resources
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.GenerateResource.cache
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.exe
-C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.pdb
 D:\Lập trình mạng căn bản\LT\BT\BT3\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.AssemblyReference.cache
 D:\Lập trình mạng căn bản\LT\BT\BT3\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.Form1.resources
 D:\Lập trình mạng căn bản\LT\BT\BT3\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.Properties.Resources.resources
@@ -53,3 +43,49 @@ D:\Lập trình mạng căn bản\LT\BT\BT3\Group2-NT106.Q12-Exercise3\UserManag
 D:\Lập trình mạng căn bản\LT\BT\BT3\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Lập trình mạng căn bản\LT\BT\BT3\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.ValueTuple.xml
 D:\Lập trình mạng căn bản\LT\BT\BT3\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.Up2Date
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Server.exe.config
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Server.exe
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Server.pdb
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.Bcl.TimeProvider.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Buffers.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Memory.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Text.Json.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.ValueTuple.dll
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.Bcl.TimeProvider.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Buffers.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Memory.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Text.Json.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\bin\Debug\System.ValueTuple.xml
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.Form1.resources
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.csproj.Up2Date
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.exe
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.pdb
+C:\Users\THIS PC\OneDrive\Documents\project vs2022\Group2-NT106.Q12-Exercise3\UserManagementTCP\Server\obj\Debug\Server.exe.config

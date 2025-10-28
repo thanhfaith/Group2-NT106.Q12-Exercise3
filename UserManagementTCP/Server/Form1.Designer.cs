@@ -31,7 +31,8 @@
             this.btn_Start = new System.Windows.Forms.Button();
             this.lb_status = new System.Windows.Forms.Label();
             this.lstClients = new System.Windows.Forms.ListBox();
-            this.tb_log = new System.Windows.Forms.TextBox();
+            this.btn_Stop = new System.Windows.Forms.Button();
+            this.lstLog = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btn_Start
@@ -48,7 +49,7 @@
             // lb_status
             // 
             this.lb_status.AutoSize = true;
-            this.lb_status.Location = new System.Drawing.Point(302, 144);
+            this.lb_status.Location = new System.Drawing.Point(350, 162);
             this.lb_status.Name = "lb_status";
             this.lb_status.Size = new System.Drawing.Size(60, 16);
             this.lb_status.TabIndex = 1;
@@ -64,20 +65,32 @@
             this.lstClients.Size = new System.Drawing.Size(190, 84);
             this.lstClients.TabIndex = 2;
             // 
-            // tb_log
+            // btn_Stop
             // 
-            this.tb_log.Location = new System.Drawing.Point(248, 212);
-            this.tb_log.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tb_log.Name = "tb_log";
-            this.tb_log.Size = new System.Drawing.Size(375, 22);
-            this.tb_log.TabIndex = 3;
+            this.btn_Stop.Location = new System.Drawing.Point(38, 121);
+            this.btn_Stop.Name = "btn_Stop";
+            this.btn_Stop.Size = new System.Drawing.Size(155, 73);
+            this.btn_Stop.TabIndex = 4;
+            this.btn_Stop.Text = "Stop";
+            this.btn_Stop.UseVisualStyleBackColor = true;
+            this.btn_Stop.Click += new System.EventHandler(this.btn_Stop_Click);
+            // 
+            // lstLog
+            // 
+            this.lstLog.FormattingEnabled = true;
+            this.lstLog.ItemHeight = 16;
+            this.lstLog.Location = new System.Drawing.Point(353, 200);
+            this.lstLog.Name = "lstLog";
+            this.lstLog.Size = new System.Drawing.Size(281, 148);
+            this.lstLog.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(711, 360);
-            this.Controls.Add(this.tb_log);
+            this.Controls.Add(this.lstLog);
+            this.Controls.Add(this.btn_Stop);
             this.Controls.Add(this.lstClients);
             this.Controls.Add(this.lb_status);
             this.Controls.Add(this.btn_Start);
@@ -96,7 +109,8 @@
         private System.Windows.Forms.Button btn_Start;
         private System.Windows.Forms.Label lb_status;
         private System.Windows.Forms.ListBox lstClients;
-        private System.Windows.Forms.TextBox tb_log;
+        private System.Windows.Forms.Button btn_Stop;
+        private System.Windows.Forms.ListBox lstLog;
     }
 }
 

@@ -43,11 +43,18 @@ namespace Server
         {
             while (isRunning)
             {
-                TcpClient client = listener.AcceptTcpClient();
-                string clientInfo = client.Client.RemoteEndPoint.ToString();
-                Invoke(new Action(() => lstClients.Items.Add(clientInfo)));
-                Thread thread = new Thread(() => HandleClient(client, clientInfo));
-                thread.Start();
+                try
+                {
+                    TcpClient client = listener.AcceptTcpClient();
+                    string clientInfo = client.Client.RemoteEndPoint.ToString();
+                    Invoke(new Action(() => lstClients.Items.Add(clientInfo)));
+                    Thread thread = new Thread(() => HandleClient(client, clientInfo));
+                    thread.Start();
+                }
+                catch (SocketException)
+                {
+                    break;
+                }
             }
         }
 
@@ -113,6 +120,17 @@ namespace Server
             }
 
         }
+        private void StopServer()
+        {
+            if (isRunning)
+            {
+                isRunning = false;
+                listener?.Stop(); // thoát AcceptTcpClient
+                lb_status.Text = "🔴 Server đã dừng.";
+                Log("🛑 Server đã dừng.");
+                // không gọi listenerThread.Join() trong UI thread
+            }
+        }
 
         public void RemoveClientFromList(string clientInfo)
         {
@@ -127,18 +145,30 @@ namespace Server
         }
         public void Log(string message)
         {
-            if (this.InvokeRequired)
+            Invoke(new Action(() =>
             {
-                this.Invoke(new Action(() => Log(message)));
-            }
-            else
-            {
+                lstLog.Items.Add(message); // lstLog là ListBox
+                                           // Tự cuộn xuống item mới
+                lstLog.TopIndex = lstLog.Items.Count - 1;
 
+                // Giới hạn số item tối đa (ví dụ 1000)
+                if (lstLog.Items.Count > 1000)
+                    lstLog.Items.RemoveAt(0);
+            }));
+        }
+        private void btn_Stop_Click(object sender, EventArgs e)
+        {
+            if (isRunning)
+            {
+                isRunning = false; // Dừng vòng lặp accept client
+                listener.Stop();   // Ngắt TcpListener
+                lb_status.Text = "🔴 Server đã dừng.";
+                Log("Server đã dừng.");
             }
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Program.isRunning = false;
+            StopServer(); // Dừng server khi đóng Form
         }
     }
 }
