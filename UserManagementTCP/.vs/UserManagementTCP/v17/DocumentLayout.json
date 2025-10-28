@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\THIS PC\\Downloads\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|c:\\users\\this pc\\downloads\\group2-nt106.q12-exercise3\\usermanagementtcp\\server\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{276D79B1-9D1B-42D6-8E80-82E560C31415}|Server\\Server.csproj|solutionrelative:server\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 373,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\THIS PC\\Downloads\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\Form1.cs",
+              "RelativeDocumentMoniker": "Server\\Form1.cs",
+              "ToolTip": "C:\\Users\\THIS PC\\Downloads\\Group2-NT106.Q12-Exercise3\\UserManagementTCP\\Server\\Form1.cs [Design]",
+              "RelativeToolTip": "Server\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T07:42:51.807Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
